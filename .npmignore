@@ -4,3 +4,6 @@ src
 *.tgz
 .gitignore
 rollup.config.js
+.vscode
+.eslintrc.json
+.prettierrc
