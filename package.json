@@ -1,19 +1,20 @@
 {
 	"name": "react-fb-login-button-ui",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "React FB Login Button",
 	"main": "dist/index.cjs.js",
 	"module": "dist/index.esm.js",
 	"scripts": {
 		"storybook": "start-storybook",
 		"build": "rollup -c",
-		"publish": "npm run build && npm publish --access public",
 		"lint": "eslint .",
 		"lint:fix": "eslint --fix --ext .js,.jsx .",
 		"upgrade": "npx npm-check-updates &&  npx npm-check-updates -u",
 		"prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,scss}'"
 	},
-	"keywords": [],
+	"keywords": [
+		"react-fb-login-button-ui"
+	],
 	"author": "Vijay Pratap Singh",
 	"license": "MIT",
 	"peerDependencies": {
