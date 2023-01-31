@@ -1,12 +1,11 @@
 import React from 'react';
-import { FacebookLoginButton } from 'react-social-login-buttons';
 
 const FBLoginButton = () => {
-    return (
-        <div>
-            <FacebookLoginButton />
-        </div>
-    );
+	return (
+		<span class="fb btn">
+			Login with Facebook
+		</span>
+	);
 };
 
 export default FBLoginButton;
